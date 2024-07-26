@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- aos CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- js -->
+    <script src="./script.js"></script>
+    <title>balenciaga fortpolio</title>
+</head>
+
+
+<body>
+    <div class="wrap">
+        <header class="header_area">
+            <ul class="header_main">
+                <li><a href="#none">SUMMER 24</a></li>
+                <li data-tab="women_menu"><a href="#none" class="women">WOMEN</a></li>
+                <li data-tab="men_menu"><a href="#none">MEN</a></li>
+                <li><a href="#none">GIFT</a></li>
+                <li><a href="#none">CONTENTS</a></li>
+            </ul>
+            
+            <div class="logo_box">
+                <a href="#none" id="logo">
+                    <svg xmlns='http://www.w3.org/2000/svg' width='128' height='15'>
+                        <path
+                            d='M121.609 2.586h.088c.2.948.287 1.379.491 2.068l1.178 4.656h-3.454l1.18-4.656c.173-.688.288-1.12.517-2.068m3.138 12.213H128L123.914.286h-4.434l-4.116 14.513h3.08l.92-3.247h4.462l.921 3.247zM108.312 15c1.785 0 3.512-.43 4.636-.89V6.84h-5.009v2.327h2.044v3.246c-.375.231-1.009.375-1.698.375-2.131 0-2.793-1.063-2.793-4.137v-1.87c0-3.046.632-4.54 2.591-4.54 1.352 0 1.815.919 1.845 1.897h3.079C112.974 1.581 111.134 0 108.082 0c-4.262 0-5.814 2.471-5.814 6.467v2.127c-.03 4.338 1.44 6.406 6.044 6.406M93.892 2.586h.088c.201.948.288 1.379.488 2.068l1.183 4.656h-3.456l1.179-4.656c.173-.688.288-1.12.518-2.068m3.137 12.213h3.251L96.196.286h-4.435l-4.114 14.513h3.079l.921-3.247h4.461l.921 3.247zm-15.544 0h3.081V.286h-3.081v14.513zM73.023 15c3.424 0 5.094-1.582 5.18-4.538h-3.107c-.058 1.436-.52 2.326-1.986 2.326-1.668 0-2.301-1.177-2.301-4.194V6.467c0-3.047.633-4.195 2.301-4.195 1.556 0 1.814 1.035 1.871 2.127h3.107C78.059 1.87 76.62.059 73.024.059c-4.002 0-5.468 2.501-5.468 6.408v2.127c0 3.936 1.465 6.406 5.467 6.406m-20.839-.201h2.735v-8.42a82.9 82.9 0 00-.117-3.793h.089c.431 1.494.661 2.27 1.064 3.39l3.194 8.823h4.491V.286h-2.735v8.078c0 1.061.03 2.471.058 3.82h-.086c-.23-1.007-.434-2.013-1.038-3.65L56.847.286h-4.69v14.513h.027zm-12.551 0h8.376v-2.327h-5.295V8.447h4.805V6.093h-4.805V2.586h5.095V.258h-8.176v14.541zm-11.253 0h8.059v-2.327H31.46V.286h-3.08v14.513zM18.824 2.586h.087c.2.948.288 1.379.489 2.068l1.18 4.656h-3.453l1.181-4.656c.171-.688.287-1.12.516-2.068m3.138 12.213h3.253L21.127.286h-4.432l-4.117 14.513h3.079l.922-3.247h4.462l.921 3.247zM3.108 12.587V8.364H4.98c1.583 0 2.33.718 2.33 2.124 0 1.55-.978 2.128-2.388 2.128H3.108v-.029zm0-6.437V2.5h1.929c1.409 0 2.014.631 2.014 1.811 0 1.179-.688 1.839-1.985 1.839H3.108zm-3.08 8.649h5.439c3.051 0 4.922-1.094 4.922-4.109 0-1.926-1.122-3.246-3.195-3.449v-.085c1.841-.316 2.936-1.322 2.936-3.247 0-2.501-1.439-3.621-4.518-3.621H0v14.513h.028v-.002z' />
+                    </svg>
+                </a>
+            </div>
+
+            <ul class="header_icon_box">
+                <li><a href="#none">CUSTOMER</a></li>
+                <li><a href="#none">LOGIN</a></li>
+                <li><a href="#none" class="header_bookmark"><i class="fa-regular fa-bookmark"></i></a></li>
+                <li><a href="#none" class="header_minicart"><i class="fa-regular fa-heart"></i></a></li>
+                <li><a href="#none" class="hamburger"><span></span><span></span><span></span></a></li>
+                
+            </ul>
+        </header>
+
+        <!-- sub_menu -->
+        <div class="sub_menu_box">
+            <div class="sub_menu" id="women_menu">
+                <ul class="sub_menu_bar wear">
+                    <li><a href="#none" class="headtext">ready to wear</a></li>
+                    <li><a href="#none">coat & jacket</a></li>
+                    <li><a href="#none">t-shirts</a></li>
+                    <li><a href="#none">knitwear</a></li>
+                    <li><a href="#none">pants</a></li>
+                    <li><a href="#none">clothes</a></li>
+                    <li><a href="#none">active wear</a></li>
+                </ul>
+        
+                <ul class="sub_menu_bar shoes">
+                    <li><a href="#none" class="headtext">shoes</a></li>
+                    <li><a href="#none">derby shoes</a></li>
+                    <li><a href="#none">sneakers</a></li>
+                    <li><a href="#none">sandle</a></li>
+                    <li><a href="#none">mule</a></li>
+                </ul>
+        
+                <ul class="sub_menu_bar bags">
+                    <li><a href="#none" class="headtext">bags</a></li>
+                    <li><a href="#none">bag & tote</a></li>
+                    <li><a href="#none">cross body & messenger</a></li>
+                    <li><a href="#none">beltbag</a></li>
+                    <li><a href="#none">bagpack</a></li>
+                </ul>
+        
+                <ul class="sub_menu_bar accessory">
+                    <li><a href="#none" class="headtext">accessory</a></li>
+                    <li><a href="#none">eyewear</a></li>
+                    <li><a href="#none">jewerly</a></li>
+                    <li><a href="#none">belt</a></li>
+                    <li><a href="#none">cap</a></li>
+                    <li><a href="#none">socks</a></li>
+                    <li><a href="#none">keyring</a></li>
+                </ul>
+        
+                <div class="sub_menu_bar image">
+                    <img src="./이미지/women 2.png" alt="">
+                </div>
+            </div>
+        
+            <div class="sub_menu" id="men_menu">
+                <ul class="sub_menu_bar wear">
+                    <li><a href="#none" class="headtext">ready to wear</a></li>
+                    <li><a href="#none">suits</a></li>
+                    <li><a href="#none">shirts</a></li>
+                    <li><a href="#none">jackets</a></li>
+                    <li><a href="#none">trousers</a></li>
+                    <li><a href="#none">coats</a></li>
+                    <li><a href="#none">active wear</a></li>
+                </ul>
+        
+                <ul class="sub_menu_bar shoes">
+                    <li><a href="#none" class="headtext">shoes</a></li>
+                    <li><a href="#none">oxfords</a></li>
+                    <li><a href="#none">sneakers</a></li>
+                    <li><a href="#none">boots</a></li>
+                    <li><a href="#none">loafers</a></li>
+                </ul>
+        
+                <ul class="sub_menu_bar accessory">
+                    <li><a href="#none" class="headtext">accessory</a></li>
+                    <li><a href="#none">watches</a></li>
+                    <li><a href="#none">ties</a></li>
+                    <li><a href="#none">belts</a></li>
+                    <li><a href="#none">hats</a></li>
+                    <li><a href="#none">socks</a></li>
+                    <li><a href="#none">cufflinks</a></li>
+                </ul>
+        
+                <div class="sub_menu_bar image">
+                    <img src="./이미지/sec2-1 2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- sidebar -->
+        <div class="sidebar_wrap">
+        <div class="top_bar">
+            <div class="top_bar_inner">
+                <a href="#none" class="m-login">로그인</a>
+                <a href="#none" class="m-my">마이페이지</a>
+            </div>
+            <div>
+                <div class="x_btn"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+        
+            <ul class="sidebar_menu">
+                <li>
+                    <div class="flex_box">
+                        <a href="#none">SUMMER 24</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex_box">
+                        <a href="#none">WOMEN</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex_box">
+                        <a href="#none">MEN</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex_box">
+                        <a href="#none">GIFT</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex_box">
+                        <a href="#none">CONTENTS</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+                
+                <a href="#none" class="sidebar_logo">
+                    <svg xmlns='http://www.w3.org/2000/svg' width='128' height='15'>
+                        <path
+                            d='M121.609 2.586h.088c.2.948.287 1.379.491 2.068l1.178 4.656h-3.454l1.18-4.656c.173-.688.288-1.12.517-2.068m3.138 12.213H128L123.914.286h-4.434l-4.116 14.513h3.08l.92-3.247h4.462l.921 3.247zM108.312 15c1.785 0 3.512-.43 4.636-.89V6.84h-5.009v2.327h2.044v3.246c-.375.231-1.009.375-1.698.375-2.131 0-2.793-1.063-2.793-4.137v-1.87c0-3.046.632-4.54 2.591-4.54 1.352 0 1.815.919 1.845 1.897h3.079C112.974 1.581 111.134 0 108.082 0c-4.262 0-5.814 2.471-5.814 6.467v2.127c-.03 4.338 1.44 6.406 6.044 6.406M93.892 2.586h.088c.201.948.288 1.379.488 2.068l1.183 4.656h-3.456l1.179-4.656c.173-.688.288-1.12.518-2.068m3.137 12.213h3.251L96.196.286h-4.435l-4.114 14.513h3.079l.921-3.247h4.461l.921 3.247zm-15.544 0h3.081V.286h-3.081v14.513zM73.023 15c3.424 0 5.094-1.582 5.18-4.538h-3.107c-.058 1.436-.52 2.326-1.986 2.326-1.668 0-2.301-1.177-2.301-4.194V6.467c0-3.047.633-4.195 2.301-4.195 1.556 0 1.814 1.035 1.871 2.127h3.107C78.059 1.87 76.62.059 73.024.059c-4.002 0-5.468 2.501-5.468 6.408v2.127c0 3.936 1.465 6.406 5.467 6.406m-20.839-.201h2.735v-8.42a82.9 82.9 0 00-.117-3.793h.089c.431 1.494.661 2.27 1.064 3.39l3.194 8.823h4.491V.286h-2.735v8.078c0 1.061.03 2.471.058 3.82h-.086c-.23-1.007-.434-2.013-1.038-3.65L56.847.286h-4.69v14.513h.027zm-12.551 0h8.376v-2.327h-5.295V8.447h4.805V6.093h-4.805V2.586h5.095V.258h-8.176v14.541zm-11.253 0h8.059v-2.327H31.46V.286h-3.08v14.513zM18.824 2.586h.087c.2.948.288 1.379.489 2.068l1.18 4.656h-3.453l1.181-4.656c.171-.688.287-1.12.516-2.068m3.138 12.213h3.253L21.127.286h-4.432l-4.117 14.513h3.079l.922-3.247h4.462l.921 3.247zM3.108 12.587V8.364H4.98c1.583 0 2.33.718 2.33 2.124 0 1.55-.978 2.128-2.388 2.128H3.108v-.029zm0-6.437V2.5h1.929c1.409 0 2.014.631 2.014 1.811 0 1.179-.688 1.839-1.985 1.839H3.108zm-3.08 8.649h5.439c3.051 0 4.922-1.094 4.922-4.109 0-1.926-1.122-3.246-3.195-3.449v-.085c1.841-.316 2.936-1.322 2.936-3.247 0-2.501-1.439-3.621-4.518-3.621H0v14.513h.028v-.002z' />
+                    </svg>
+                </a>
+            </ul>
+        </div>
+        <!-- swiper 구역 -->
+        <section class="sec banner">
+            <div class="container">
+                <div class="banner-slide">
+                    <div class="swiper-slide slide1 active">
+                        <a href="#none">
+                            Redefining luxury with bold <br>innovation and timeless elegance.
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <a href="#none">
+                            Redefining luxury with bold <br>innovation and timeless elegance.
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide3">
+                        <a href="#none">
+                            Redefining luxury with bold <br>innovation and timeless elegance.
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- summer collection -->
+        <div class="sec summmer_collection">
+            <div class="top_btn"><a href="">TOP</a></div>
+            <div class="collection_text">
+                <h1>2024 SUMMER COLLECTION</h1>
+                <p>Discover the essence of elegance and sophistication<br>
+                    with Valencia's 2024 Summer Collection. <br>Embrace modernity
+                    through vibrant patterns and luxurious fabrics.</p>
+                <p class="button"><a href="#none">add more</a></p>
+            </div>
+
+            <div class="swiper collection_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide collection_items">
+                        <img src="./이미지/Medium-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide collection_items">
+                        <img src="./이미지/Medium-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide collection_items">
+                        <img src="./이미지/Medium-4 (1).jpg" alt="">
+                    </div>
+                    <div class="swiper-slide collection_items">
+                        <img src="./이미지/Medium-5.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide collection_items">
+                        <img src="./이미지/Medium-9.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide collection_items">
+                        <img src="./이미지/summer (1).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sec sec_1" data-aos="fade-down" data-aos-duration="500">
+            <div class="container">
+                <h1>ITEMS</h1>
+                <div class="sec_1_top">
+                    <div class="image-container men">
+                        <img src="./이미지/sec2-1 2.png" alt="">
+                        <p class="image-text">MEN</p>
+                        <p>MORE</p>
+                    </div>
+                    <div class="image-container women">
+                        <img src="./이미지/women 2.png" alt="">
+                        <p class="image-text">WOMEN</p>
+                        <p>MORE</p>
+                    </div>
+                </div>
+
+                <div class="sec_1_bottom">
+                    <div class="image-container shoes">
+                        <img src="./이미지/shoes 2.png" alt="">
+                        <p class="image-text">SHOES</p>
+                        <p>MORE</p>
+                    </div>
+                    <div class="image-container bag">
+                        <img src="./이미지/remite 2.png" alt="">
+                        <p class="image-text">LIMITED EDITION</p>
+                        <p>MORE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="sec sec_2">
+            <h1>MAGAZINES</h1>
+            <div class="container">
+                <div class="height_container">
+                    <div class="mag_box sec_2_left">
+                        <img src="./이미지/left1.webp" alt="" data-aos="fade-right">
+                        <a href="#none" class="magazines_detail">
+                            <div class="magazine_inner">
+                                <p>NEW YORK</p>
+                                <p>MORE</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mag_box sec_2_right">
+                        <div class="right box">
+
+                            <img src="./이미지/right1.jpg" alt="" data-aos="fade-down" data-aos-duration="500">
+                            <a href="#none" class="magazines_detail">
+                                <div class="magazine_inner">
+                                    <p>LONDON</p>
+                                    <p>MORE</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right box">
+                            <img src="./이미지/right2.jpg" alt="" data-aos="fade-right" data-aos-duration="500">
+                            <a href="#none" class="magazines_detail">
+                                <div class="magazine_inner">
+                                    <p>MILANO</p>
+                                    <p>MORE</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right box">
+                            <img src="./이미지/right3.jpg" alt="" data-aos="fade-up" data-aos-duration="500">
+                            <a href="#none" class="magazines_detail">
+                                <div class="magazine_inner">
+                                    <p>PARIS</p>
+                                    <p>MORE</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right box">
+                            <img src="./이미지/right4.jpg" alt="" data-aos="fade-up data-aos-duration=" 500"">
+                            <a href="#none" class="magazines_detail">
+                                <div class="magazine_inner">
+                                    <p>KOREA</p>
+                                    <p>MORE</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer_area">
+            <div class="footer_left">
+                <ul class="footer_box store">
+                    <li><a href="#none" class="headtext">STORE</a></li>
+                    <li><a href="#none">employment</a></li>
+                    <li><a href="#none">CHANNEL</a></li>
+                </ul>
+
+                <ul class="footer_box order">
+                    <li><a href="#none" class="headtext">Order</a></li>
+                    <li><a href="#none">delivery service</a></li>
+                    <li><a href="#none">join the membership</a></li>
+                    <li><a href="#none">FAQ</a></li>
+                    <li><a href="#none">product management</a></li>
+                    <li><a href="#none">Customer Inquiry</a></li>
+                </ul>
+
+                <ul class="footer_box law">
+                    <li><a href="#none" class="headtext">Terms of Use</a></li>
+                    <li><a href="#none">Privacy Policy</a></li>
+                    <li><a href="#none">global membership</a></li>
+                    <li><a href="#none">Shipping Policy</a></li>
+                    <li><a href="#none">Return Policy</a></li>
+                </ul>
+
+                <ul class="footer_box sns">
+                    <div class="sns_top">
+                        <h1 class="headtext">NEWSLETTER</h1>
+                        <input type="text" placeholder="E-MAIL">
+                        <a href="#none" class="footer_btn">SUBSCRIBE</a>
+                    </div>
+
+                    <div class="sns_bottom">
+                        <h1 class="headtext">SNS</h1>
+                        <div class="icon_box">
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-square-instagram"></i></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </footer>
+        <div class="information">
+            <div class="information_logo">
+                <svg xmlns='http://www.w3.org/2000/svg' width='128' height='15'>
+                    <path
+                        d='M121.609 2.586h.088c.2.948.287 1.379.491 2.068l1.178 4.656h-3.454l1.18-4.656c.173-.688.288-1.12.517-2.068m3.138 12.213H128L123.914.286h-4.434l-4.116 14.513h3.08l.92-3.247h4.462l.921 3.247zM108.312 15c1.785 0 3.512-.43 4.636-.89V6.84h-5.009v2.327h2.044v3.246c-.375.231-1.009.375-1.698.375-2.131 0-2.793-1.063-2.793-4.137v-1.87c0-3.046.632-4.54 2.591-4.54 1.352 0 1.815.919 1.845 1.897h3.079C112.974 1.581 111.134 0 108.082 0c-4.262 0-5.814 2.471-5.814 6.467v2.127c-.03 4.338 1.44 6.406 6.044 6.406M93.892 2.586h.088c.201.948.288 1.379.488 2.068l1.183 4.656h-3.456l1.179-4.656c.173-.688.288-1.12.518-2.068m3.137 12.213h3.251L96.196.286h-4.435l-4.114 14.513h3.079l.921-3.247h4.461l.921 3.247zm-15.544 0h3.081V.286h-3.081v14.513zM73.023 15c3.424 0 5.094-1.582 5.18-4.538h-3.107c-.058 1.436-.52 2.326-1.986 2.326-1.668 0-2.301-1.177-2.301-4.194V6.467c0-3.047.633-4.195 2.301-4.195 1.556 0 1.814 1.035 1.871 2.127h3.107C78.059 1.87 76.62.059 73.024.059c-4.002 0-5.468 2.501-5.468 6.408v2.127c0 3.936 1.465 6.406 5.467 6.406m-20.839-.201h2.735v-8.42a82.9 82.9 0 00-.117-3.793h.089c.431 1.494.661 2.27 1.064 3.39l3.194 8.823h4.491V.286h-2.735v8.078c0 1.061.03 2.471.058 3.82h-.086c-.23-1.007-.434-2.013-1.038-3.65L56.847.286h-4.69v14.513h.027zm-12.551 0h8.376v-2.327h-5.295V8.447h4.805V6.093h-4.805V2.586h5.095V.258h-8.176v14.541zm-11.253 0h8.059v-2.327H31.46V.286h-3.08v14.513zM18.824 2.586h.087c.2.948.288 1.379.489 2.068l1.18 4.656h-3.453l1.181-4.656c.171-.688.287-1.12.516-2.068m3.138 12.213h3.253L21.127.286h-4.432l-4.117 14.513h3.079l.922-3.247h4.462l.921 3.247zM3.108 12.587V8.364H4.98c1.583 0 2.33.718 2.33 2.124 0 1.55-.978 2.128-2.388 2.128H3.108v-.029zm0-6.437V2.5h1.929c1.409 0 2.014.631 2.014 1.811 0 1.179-.688 1.839-1.985 1.839H3.108zm-3.08 8.649h5.439c3.051 0 4.922-1.094 4.922-4.109 0-1.926-1.122-3.246-3.195-3.449v-.085c1.841-.316 2.936-1.322 2.936-3.247 0-2.501-1.439-3.621-4.518-3.621H0v14.513h.028v-.002z' />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+       
+    </script>
+</body>
+
+</html>
